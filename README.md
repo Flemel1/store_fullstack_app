@@ -13,6 +13,11 @@ Misalkan
 ```bash
 SERVER_HOST=192.168.1.1
 ```
+Kemudian tambahkan database mysql dengan cara
+```bash
+php artisan migrate
+```
+
 Kemudian jalankan server
 ```bash
 php artisan serve
